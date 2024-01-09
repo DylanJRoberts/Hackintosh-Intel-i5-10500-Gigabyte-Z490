@@ -3,7 +3,7 @@
 ![About this mac](/img/macinfo.png)
 
 # Summary
-Manage to successfully installed MacOS Big Sur 11.2.3 on Gigabyte Z490 UD **with** Intel UHD Graphics 630 **using HDMI port** (**without** using any dedicated graphic cards)
+This is my old config that is still in use and working that i managed to successfully installed MacOS Big Sur 11.2.3 on Gigabyte Z490 UD **with** Intel UHD Graphics 630 **using HDMI port** (**without** using any dedicated graphic cards)
 
 # Tutorial I Followed
 https://dortania.github.io/OpenCore-Install-Guide/ (Remember to update the EFI with ur own generated serial number)
@@ -12,11 +12,13 @@ https://dortania.github.io/OpenCore-Install-Guide/ (Remember to update the EFI w
 - Processor: Intel i5-10500
 - GPU: Intel UHD Graphics 630
 - Mobo: Gigabyte Z490 UD
-- SSD: 256GB Samsung SM961
-- RAM: CORSAIR DDR4 VENGEANCE PC3000 16GB 
+- SSD: 1TB Samsung 990 Pro
+- RAM: 2x32GB CORSAIR DDR4 VENGEANCE RAM 3200Mhz
 
 # BIOS Setting
-To Be Update
+- CSM Off
+- Other OS Selection
+- Made CPU always boost
 
 # Working
 - [x] **WBluetooth** - Even with incomplete bluetooth patch (did not fix it in current EFI, do refer - https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth if required to do it properly)
@@ -27,14 +29,7 @@ To Be Update
 - [x] **Sleep/Wake**
 - [x] **Shutdown**
 - [x] **Restart**
-
-
-# Not tested
-- [ ] **USB speed**
-- [ ] **Wifi** - Using Ethernet only currently
-- [ ] **MacOS update** - Don't want to messed up since im using as my main PC
-- [ ] **OC** - Plan to do it in near future (I hope)
-
+- [ ] 
 # Benchmarks
 
 ![GeekBench](/img/geekbench.png)
