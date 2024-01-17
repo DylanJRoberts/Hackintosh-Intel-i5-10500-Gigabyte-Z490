@@ -1338,7 +1338,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=1 </string>
+				<string>-v keepsyms=1 debug=0x100 alcid=1 -radcodec  </string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
