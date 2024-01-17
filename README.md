@@ -10,7 +10,7 @@ https://dortania.github.io/OpenCore-Install-Guide/ (Remember to update the EFI w
 
 # Hardware
 - Processor: Intel i5-10500
-- GPU: Intel UHD Graphics 630
+- GPU: Radeon Pro W6800
 - Mobo: Gigabyte Z490 UD
 - SSD: 1TB Samsung 990 Pro
 - RAM: 2x32GB CORSAIR DDR4 VENGEANCE RAM 3200Mhz
@@ -24,7 +24,7 @@ https://dortania.github.io/OpenCore-Install-Guide/ (Remember to update the EFI w
 - [x] **WBluetooth** - Even with incomplete bluetooth patch (did not fix it in current EFI, do refer - https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth if required to do it properly)
 - [x] **Audio** - Front analog output + My Corsair ST100 Headset stand working - both input and output
 - [x] **USB** - All port working (2.0, 3.0, 3.1), did not test transfer speed
-- [x] **iGPU UHD630 with HDMI-output** - Currently on 1920x1080 resolution.
+- [x] **GPU** - Added AMD GPU support.
 - [x] **Ethernet**
 - [x] **Sleep/Wake**
 - [x] **Shutdown**
